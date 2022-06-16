@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: grey;
-    /*background: url(bg.jpg) no-repeat;*/
+    background: url(water.drops.jpg) no-repeat;
     background-size: cover;
   }
   /*Centered page box*/
