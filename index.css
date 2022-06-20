@@ -1,3 +1,28 @@
+/*HEADER
+*
+*/
+header, footer {
+  background-color: black;
+}
+  /*Adds a slightly rounded border to the selected area, 10px padding and sets
+  the font.*/
+.headers {
+  font-family: sans-serif;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color:beige;
+}
+/*nav specific settings*/
+nav {
+  font-size: 12pt;
+  text-align: center;
+}
+
+
 /*BODY
 background can be used to have a background image rather than a color,
 I will leave this as a potential option for later*/
@@ -5,7 +30,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: grey;
-    background: url(water.drops.jpg) no-repeat;
+    background: url(greyBackground.jpg) no-repeat;
     background-size: cover;
   }
   /*Centered page box*/
