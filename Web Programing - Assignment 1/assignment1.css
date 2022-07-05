@@ -138,7 +138,7 @@ dt {
     padding: 0 26px 0 0;
     width: 150px;
     float: left;
-    height: 100px;
+    height: 120px;
     border-right: 1px solid #999;
 }
 
@@ -152,3 +152,72 @@ dd.clear {
     margin: 0;
     height: 15px;
 }
+
+/*BODY
+background can be used to have a background image rather than a color,
+I will leave this as a potential option for later*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    background: url(greyBackground.jpg) no-repeat;
+    background-size: cover;
+  }
+  /*Centered page box*/
+  .box{
+    width: 450px;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    /*font-family: 'Century Gothic',sans-serif;*/
+    font-family:'Helvetica', 'Arial', sans-serif;
+  }
+  /*Icon specific settings*/
+  .box-img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px; height: 200px; object-fit: cover;
+  }
+  /*Main heading text*/
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  /*Sub-heading text*/
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  /*box paragraph text*/
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  /*Widget/links. Not necessarily useful for a novice learning programmer
+  like myself, but in-the-wild programmers with experience might have these
+  which would point to their github, twitter, or stack account (I assume).*/
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+    padding-top: 40px;
+  }
+  /*Hover settings for widget/links*/
+  .box li a:hover{
+    color: #b9b9b9;
+  }
