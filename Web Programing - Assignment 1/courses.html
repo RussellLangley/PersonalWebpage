@@ -6,7 +6,7 @@
     <meta name="viewport" content="width-device-width" , initial-scale="1.0">
     <link rel="stylesheet" href="assignment1.css">
     <meta name="author" content="Russell Langley">
-    <title>Resume</title>
+    <title>Courses</title>
 </head>
 
 <body>
@@ -28,6 +28,140 @@
 
             <h1 class="fn">Russell Langley</h1>
 
-            <p></p>
         </div>
-    </div>
+        <div id="objective">
+            <p>
+                The primary goal of this page is to display the
+                courses I have completed at Algonquin, or am currently taking, and
+                provide a brief overview of them.
+            </p>
+        </div><br><br><br><br>
+        <!--This is a rudimentary search bar. The skeleton for this was inspired
+        by a guide from w3schools.com. Note that I did not write any custom
+        javascript, although I left a placeholder for future reference in my initialization-->
+        <input type="text" id="Input" onkeyup="ifIHadJavaScriptIWouldPutItHere()"
+            placeholder="Enter search criteria...">
+        <!--This is a basic filter option, without any functionality. Skeleton for this was found
+        at w3schools.com-->
+
+        <!--These will be the filter buttons. Note that there is no JavaScript, although
+        a placeholder is kept for future reference in case I wish to add functionality to
+        a button click at a later date-->
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="noJavaScriptToday('all')"> Show all</button>
+            <button class="btn" onclick="noJavaScriptToday('level1')">Level 1</button>
+            <button class="btn" onclick="noJavaScriptToday('level2')">Level 2</button>
+            <button class="btn" onclick="noJavaScriptToday('lowest')">Low to High</button>
+            <button class="btn" onclick="noJavaScriptToday('hightest')">High to Low</button>
+        </div>
+    <div class="clear"></div><br><br>
+
+        <dl>
+            <dd class="clear"></dd>
+
+            <dt>CST8284</dt>
+            <dd>
+                <h2>Object Oriented Programming (Java)</h2>
+                <p>Explores object oriented programming methods using
+                    Java and builds upon concepts learned from 8116. Things
+                    like abstraction and encapsulation, to name just two examples,
+                    are covered and used in actual laboratory assignments.
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>CST8285</dt>
+            <dd>
+                <h2>Web Programming</h2>
+                <p>Introduces website programming using JavaScript, HTML5, PHP,
+                    and CSS and uses those tools to build projects and websites.
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>CST8285</dt>
+            <dd>
+                <h2>Operating Systems Fundamentals (GNU/Linux)</h2>
+                <p>Explores fundamental concepts in operating systems, focusing
+                    on GNU and Linux platforms and the syntax used to operate them
+                    within the terminal.
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>CST2355</dt>
+            <dd>
+                <h2>Database Systems</h2>
+                <p>Builds upon what was learned from CST8215 and introduces Oracle,
+                    Access, and Microsoft SQL Server Managemnt Studio. Advanced SQL,
+                    rollup and cube operations, as well as metadata manipulation are
+                    some primary topics covered. 
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>MAT8001</dt>
+            <dd>
+                <h2>Tech Math for Computer Science</h2>
+                <p>Modudles on Algebraic Operations and Algebra Basics, 
+                    Computer Number Systems, Boolean Algebra, Factoring and 
+                    Solving Equations, Trigonometry, Graphing, Vectors, and 
+                    Systems and Linear Equations are covered. 
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dd class="clear"></dd>
+
+            <dt>CST8101</dt>
+            <dd>
+                <h2>Computer Essentials</h2>
+                <p>Introduces essential information on the use of 
+                    computer software, hardware, and its management.
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>CST8116</dt>
+            <dd>
+                <h2>Introduction to Computer Programming</h2>
+                <p>Provides a broad overview of object oriented programming, 
+                    focusing on Java. Topics such as sequential structures, 
+                    selection structures, repitition structures, variables, 
+                    constants, methods, and many more are covered and practiced.
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>CST8215</dt>
+            <dd>
+                <h2>Introduction to Database</h2>
+                <p>Introduces students to the use of databases in personal 
+                    and professional use. Databases are created, modifed, and 
+                    queried using DBMS's. 
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>CST8300</dt>
+            <dd>
+                <h2>Achieving Success in Changing Environments</h2>
+                <p>Primarily comprised of group work projects and writing assignments, 
+                    this course functions to prepare students for the work force and 
+                    professional life. Soft skills are seldom practiced and thus this 
+                    course functions to emphasize those skills and build upon them.
+                </p>
+            </dd>
+            <dd class="clear"></dd>
+        </div>
+</body>
+
+</html>
