@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width" , initial-scale="1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assignment1.css">
     <meta name="author" content="Russell Langley">
     <title>Resume</title>
@@ -17,12 +17,15 @@
         <div class="header">
             <a href="#default" class="logo">Welcome</a>
             <div class="header-right">
-                <a href="homepage.html">Homepage</a>
+                <a href="index.html">Homepage</a>
                 <a class="active" href="#resume">Resume</a>
                 <a href="courses.html">Courses</a>
             </div>
         </div>
     </header>
+    <!--Begins the formatting for the resume. Begins with my name and some contact information, then a medium
+    sized preamble of my goals and objects, as well as their rationale, as required in Assignment 1. page-wrap
+    is the class I use in my CSS to style most of this page and courses.html-->
     <div id="page-wrap">
         <div id="contact-info" class="vcard">
 
@@ -37,6 +40,8 @@
             </p>
         </div>
 
+        <!--Cheesy writup that functions as my "goals" and "objectives" and a rationale
+        for why I am seeking a hypothetical position as a programmer.-->
         <div id="objective">
             <p>
                 There came a moment not long before I enrolled in Computer Programming
@@ -55,7 +60,6 @@
         </div>
 
         <div class="clear"></div>
-
         <dl>
             <dd class="clear"></dd>
 
@@ -102,27 +106,31 @@
                     <li>Primarily used Excel for data entry.</li>
                 </ul>
             </dd>
+        </dl>
+        <dd class="clear"></dd><br><br><br>
 
-            <dd class="clear"></dd><br><br><br>
+        <!--This is the entry point to a small projects list. Each thumbnail is a small image I've taken and
+        clicking those images will actually pull up the project. These files are stored within /Previouslabs.
+        Pictures can be found within /Pictures. I did adjust the width and height here in html since sizing images is not
+        an easy task within CSS.-->
+        <h1>Projects</h1>
+        <div class="gallery">
 
-            <h1>Projects</h1>
-    </div>
-    <div class="gallery">
+            <div class="thumbnail">
+                <a href="PreviousLabs/lab3Copy.html">
+                    <img src="pictures/imageofLab3.png" alt="Lab 3 Thumbnail" width="250" height="250" />
+                </a>
+            </div>
 
-        <div class="thumbnail">
-            <a href="Previous Labs/lab3Copy.html">
-                <img src="pictures/imageofLab3.png" width="250" height="250" />
-            </a>
-        </div>
+            <div class="thumbnail">
+                <a href="PreviousLabs/lab1Copy.html">
+                    <img src="pictures/imageofLab1.png" alt="Lab 1 Thumbnail" width="250" height="250" />
+                </a>
+            </div>
 
-        <div class="thumbnail">
-            <a href="Previous Labs/lab1Copy.html">
-                <img src="pictures/imageofLab1.png" width="250" height="250" />
-            </a>
-        </div>
-
-        <div class="thumbnail">
-            <img src="pictures/moreToCome.png" width="250" height="250" />
+            <div class="thumbnail">
+                <img src="pictures/moreToCome.png" alt="More Thumbnail" width="250" height="250" />
+            </div>
         </div>
     </div>
 </body>

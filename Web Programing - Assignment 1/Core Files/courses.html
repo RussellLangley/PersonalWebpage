@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width" , initial-scale="1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assignment1.css">
     <meta name="author" content="Russell Langley">
     <title>Courses</title>
@@ -17,7 +17,7 @@
         <div class="header">
             <a href="#default" class="logo">Welcome</a>
             <div class="header-right">
-                <a href="homepage.html">Homepage</a>
+                <a href="index.html">Homepage</a>
                 <a href="resume.html">Resume</a>
                 <a class="active" href="#courses">Courses</a>
             </div>
@@ -54,8 +54,12 @@
             <button class="btn" onclick="noJavaScriptToday('lowest')">Low to High</button>
             <button class="btn" onclick="noJavaScriptToday('hightest')">High to Low</button>
         </div>
-    <div class="clear"></div><br><br>
+        <div class="clear"></div><br><br>
 
+        <!--A simiilar layout to that of resume.html using a definition list. I thought it 
+        looked the most aesthetic, at least compared to the other list variants we have 
+        learned thus far in this course. Note that class clear functions to maintain my 
+        formatting between each definition, otherwise they overlap from the page-wrap-->
         <dl>
             <dd class="clear"></dd>
 
@@ -98,7 +102,7 @@
                 <p>Builds upon what was learned from CST8215 and introduces Oracle,
                     Access, and Microsoft SQL Server Managemnt Studio. Advanced SQL,
                     rollup and cube operations, as well as metadata manipulation are
-                    some primary topics covered. 
+                    some primary topics covered.
                 </p>
             </dd>
 
@@ -107,10 +111,10 @@
             <dt>MAT8001</dt>
             <dd>
                 <h2>Tech Math for Computer Science</h2>
-                <p>Modudles on Algebraic Operations and Algebra Basics, 
-                    Computer Number Systems, Boolean Algebra, Factoring and 
-                    Solving Equations, Trigonometry, Graphing, Vectors, and 
-                    Systems and Linear Equations are covered. 
+                <p>Modudles on Algebraic Operations and Algebra Basics,
+                    Computer Number Systems, Boolean Algebra, Factoring and
+                    Solving Equations, Trigonometry, Graphing, Vectors, and
+                    Systems and Linear Equations are covered.
                 </p>
             </dd>
 
@@ -121,7 +125,7 @@
             <dt>CST8101</dt>
             <dd>
                 <h2>Computer Essentials</h2>
-                <p>Introduces essential information on the use of 
+                <p>Introduces essential information on the use of
                     computer software, hardware, and its management.
                 </p>
             </dd>
@@ -131,9 +135,9 @@
             <dt>CST8116</dt>
             <dd>
                 <h2>Introduction to Computer Programming</h2>
-                <p>Provides a broad overview of object oriented programming, 
-                    focusing on Java. Topics such as sequential structures, 
-                    selection structures, repitition structures, variables, 
+                <p>Provides a broad overview of object oriented programming,
+                    focusing on Java. Topics such as sequential structures,
+                    selection structures, repitition structures, variables,
                     constants, methods, and many more are covered and practiced.
                 </p>
             </dd>
@@ -143,9 +147,9 @@
             <dt>CST8215</dt>
             <dd>
                 <h2>Introduction to Database</h2>
-                <p>Introduces students to the use of databases in personal 
-                    and professional use. Databases are created, modifed, and 
-                    queried using DBMS's. 
+                <p>Introduces students to the use of databases in personal
+                    and professional use. Databases are created, modifed, and
+                    queried using DBMS's.
                 </p>
             </dd>
 
@@ -154,14 +158,15 @@
             <dt>CST8300</dt>
             <dd>
                 <h2>Achieving Success in Changing Environments</h2>
-                <p>Primarily comprised of group work projects and writing assignments, 
-                    this course functions to prepare students for the work force and 
-                    professional life. Soft skills are seldom practiced and thus this 
+                <p>Primarily comprised of group work projects and writing assignments,
+                    this course functions to prepare students for the work force and
+                    professional life. Soft skills are seldom practiced and thus this
                     course functions to emphasize those skills and build upon them.
                 </p>
             </dd>
             <dd class="clear"></dd>
-        </div>
+        </dl>
+    </div>
 </body>
 
 </html>
