@@ -1,0 +1,105 @@
+/* Russell Langley
+ * 
+ * External CSS stylesheet: Lab3
+*/
+
+header,
+footer {
+    background-color: #60594D;
+}
+
+title {
+    font-size: 30px;
+}
+
+/*Adds a slightly rounded border to the selected area, 10px padding and sets
+  the font.*/
+.headers {
+    font-family: sans-serif;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+body {
+    background-color: #DDD78D;
+}
+
+/*paragraph specific settings*/
+p {
+    font-family: sans-serif;
+    font-size: 14pt;
+    margin-top: 10px; 
+
+}
+
+/*nav specific settings*/
+nav {
+    font-size: 12pt;
+    text-align: center;
+}
+
+/*blockquote settings*/
+blockquote {
+    background-color: #DCBF85;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14pt;
+
+}
+
+/*button creation*/
+a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.ReturnToTop {
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*adding hover element to anchored items*/
+a:hover {
+    color: #8b635c;
+}
+
+/*button SMOOTH scrolling*/
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*editing photo position, size, and padding*/
+img {
+    float: right;
+    width: 25%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Font-size for ol and ul*/
+ol,
+ul {
+    font-size: 14pt;
+}
+
+footer {
+    text-align: right;
+}
