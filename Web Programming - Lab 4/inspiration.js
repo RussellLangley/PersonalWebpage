@@ -203,6 +203,7 @@ const inspirations = {
 // This will be the function for the onclick attribute on my html file. This function aims to 
 // generate a random number from the list of the total number of quotes I have been supplied in
 // inspirations.quotes (which comes to about 97). 
+// Note to self: reduce the length of the print statement. It's a bit sloppy.
 function getQuote() {
        var randomNumber = Math.floor(Math.random() * (inspirations.quotes.length));  
        document.getElementById("viewQuote").innerHTML = inspirations.quotes[randomNumber].quote +

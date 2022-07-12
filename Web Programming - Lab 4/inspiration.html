@@ -8,6 +8,7 @@
     <meta name="author" content="Russell Langley">
     <meta name="email" content="lang0549@algonquinlive.com">
     <link rel="stylesheet" type="text/css" href="inspiration.css">
+    </script>
     <meta name="date 2022-07-11">
     <title>Inspirational</title>
 </head>
@@ -16,12 +17,18 @@
     <!--Primary header-->
     <h1>Inspirational Quotes</h1>
     <!--div for the body of the quote box-->
-    <div id="viewQuote">
+    <div class="viewQuote" id="viewQuote">
         <!--div for the quote text-->
-        <div id="quote text">
+        <div class="quoteText">
             <!--div for the author-->
-            <div id="author">
-                <!--Quotes are displayed here on my page-->
+            <div class="author">
+               <script>
+                function getQuote() {
+                    document.getElementById("viewQuote").innerHTML = inspirations.quotes[randomNumber].quote +
+                    " - " + inspirations.quotes[randomNumber].author;
+                }
+                getQuote();
+               </script>
             </div>
         </div>
     </div>

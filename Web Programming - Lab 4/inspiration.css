@@ -1,5 +1,55 @@
 /* Body element font and button= */
 
+body {
+    font: 16px Helvetica, Sans-Serif;
+    line-height: 24px;
+    background-color: bisque;
+    color: black
+    font-family: serif;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    border: 3px solid black;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+/*Panel where the quote appears*/
+.viewQuote {
+    background-color:turquoise;
+    position: absolute;
+    width: 95%;
+    height: 5%;
+    text-align: center;
+    border: 3pt solid black;
+    border-radius: 15pt;
+    padding: 5pt;
+}
+
+.quoteText {
+    text-align: left;
+    margin-top: -15px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+
 /* selector pouinter to the outer div that holds quotation
     add border with 15pt, rounded corners, pleasant background
     color */
