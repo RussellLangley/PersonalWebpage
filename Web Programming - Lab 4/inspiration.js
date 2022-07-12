@@ -200,14 +200,13 @@ const inspirations = {
 
 // The above quotes and code were supplied by CST8285. Note to self, there are 97 quotes. 
 
-function newQuote() {
-       const randomNumber = Math.floor(Math.random() * (inspirations.length));  
-       document.getElementById("quoteDisplay").innerHTML = inspirations[randomNumber];
-}
-
-function Test() {
-       const randomNumber = Math.floor(Math.random() * (inspirations.length));  
-       document.getElementById("quoteDisplay").innerHTML = 5 + 6;
+// This will be the function for the onclick attribute on my html file. This function aims to 
+// generate a random number from the list of the total number of quotes I have been supplied in
+// inspirations.quotes (which comes to about 97). 
+function getQuote() {
+       var randomNumber = Math.floor(Math.random() * (inspirations.quotes.length));  
+       document.getElementById("viewQuote").innerHTML = inspirations.quotes[randomNumber].quote +
+       " - " + inspirations.quotes[randomNumber].author;
 }
 
 

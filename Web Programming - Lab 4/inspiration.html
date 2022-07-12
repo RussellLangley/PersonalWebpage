@@ -13,29 +13,26 @@
 </head>
 
 <body>
+    <!--Primary header-->
     <h1>Inspirational Quotes</h1>
-    <div id="quoteDisplay">
+    <!--div for the body of the quote box-->
+    <div id="viewQuote">
+        <!--div for the quote text-->
         <div id="quote text">
+            <!--div for the author-->
             <div id="author">
-                <!--Quotes are displayed here?-->
+                <!--Quotes are displayed here on my page-->
             </div>
         </div>
     </div>
     <!--Centered button-->
-    <button onclick="newQuote()">Get Quote</button>
-    <script src="inspiration.js"></script>
-
-// Test: this code is used to troubleshoot my javascript not finding
-// inspirations.length
-    <div id="DisplayTest">
-        <div id="quote text">
-            <div id="author">
-                <!--Quotes are displayed here?-->
-            </div>
-        </div>
-    </div>
-    <!--Centered button-->
-    <button onclick="Test()">Test this</button>
+    <!--initializes the onclick attibute. The value
+    that is set is linked to inspiration.js where the 
+    function resides for this attribute. The function
+    will generate a random quote, from a large list, and
+    print both the quote and the author.-->
+    <button onclick="getQuote()">Get Quote</button>
+    <!--This links this html file to its javascript file-->
     <script src="inspiration.js"></script>
 </body>
 
