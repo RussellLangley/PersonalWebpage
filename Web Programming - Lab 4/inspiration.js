@@ -198,7 +198,9 @@ const inspirations = {
 ]
 };
 
-// The above quotes and code were supplied by CST8285. Note to self, there are 97 quotes. 
+// The above quotes were supplied by CST8285. Note that there are 97 quotes. 
+
+
 
 // This will be the function for the onclick attribute on my html file. This function aims to 
 // generate a random number from the list of the total number of quotes I have been supplied in

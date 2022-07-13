@@ -19,15 +19,16 @@
     <!--div for the body of the quote box-->
     <div class="viewQuote" id="viewQuote">
         <!--div for the quote text-->
-        <div class="quoteText">
+        <div class="quoteText" id="quoteText">
             <!--div for the author-->
-            <div class="author">
+            <div class="author" id="author">
+                <!--This script will run the function getQuote
+                when the page initially loads. Thus, there will
+                always be a quote listed.-->
                <script>
-                function getQuote() {
-                    document.getElementById("viewQuote").innerHTML = inspirations.quotes[randomNumber].quote +
-                    " - " + inspirations.quotes[randomNumber].author;
+                window.onload = function() {
+                    getQuote();
                 }
-                getQuote();
                </script>
             </div>
         </div>
